@@ -414,13 +414,11 @@ section#specials {
 }
 
 /** REVIEWS OVERRIDES */
-section#reviews {
-	margin-top: 50px;
-	padding-top: 60px;
-	margin-bottom: 0;
-	padding-bottom: 30px;
-	background-color: #f6f6e9 !important;
-}
+#reviews{background-color:#f1f3f9;}
+#reviews table.rad{box-sizing:border-box;display:block;max-height:640px;overflow-y:scroll;border:2px solid rgba(0, 0, 0, .05);border-bottom:none;}
+#reviews td.rad{padding:3em 10px 20px 10px;position:relative;background-color:rgba(255, 255, 255, .8);border-bottom:2px solid rgba(0, 0, 0, .05);}
+#reviews .starline{display:block;position:absolute;top:1em;}
+#reviews .radbyline{display:block;text-align:right;}
 
 /** SERVICES OVERRIDES */
 section#services {
