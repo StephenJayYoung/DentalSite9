@@ -115,12 +115,12 @@ jQuery(document).ready(function($){
     // google maps script
     $('#google-map').gMap({
 
-        address: '4221 85th Street, Lubbock, TX',
+        address: '1144-C India Hook Rd, Rock Hill, SC',
         maptype: 'ROADMAP',
         zoom: 16,
         markers: [
             {
-                address: "4221 85th Street, Lubbock, TX 79423",
+                address: "1144-C India Hook Rd, Rock Hill, SC 29732",
                 icon: {
                     image: "assets/images/icons/map-icon-red.png",
                     iconsize: [32, 39],
