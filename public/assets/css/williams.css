@@ -189,6 +189,16 @@ background-color: #e38d77 !important;
 .device-xs #actions .schedule-online:not(.close),
 .device-xxs #actions .phone-numbers,
 .device-xxs #actions .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
+#actions .schedule-online a.button{background-color:#ff8200;color:#ffffff;opacity:1;border:2px solid rgba(255, 255, 255, .7);text-shadow:none !important;text-decoration:none !important;}
+.device-xs #actions .schedule-online a.button, .device-xxs #actions .schedule-online a.button {font-size:12px;padding:5px 10px !important;line-height:25px;}
+#actions .existing-patients{margin-top:10px;}
+#actions .existing-patients p{font-size:24px;font-weight:300;margin:0;}
+.device-xs #actions .existing-patients p,
+.device-xxs #actions .existing-patients p{font-size:20px;}
+#actions .existing-patients p a{font-weight:bold;}
+.device-xs #actions .existing-patients p a,
+.device-xxs #actions .existing-patients p a{margin-top:-5px;display:block;}
+.device-xxs #actions .schedule-online{padding:15px 0 5px 0;}
 
 /** TEAM OVERRIDES */
 section#doctor {
