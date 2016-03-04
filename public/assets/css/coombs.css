@@ -201,110 +201,18 @@ background-color: #e38d77 !important;
 .device-xxs #actions .schedule-online{padding:15px 0 5px 0;}
 
 /** TEAM OVERRIDES */
-section#doctor {
-	background-color: #f6f6e9 !important;
-	margin-top: 0;
-	padding-top: 60px;
-/*	padding-bottom: 30px;*/
-}
-
-.doctor-name {
-	font-family: "Lato", sans-serif;
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-	.doctor-text{
-		font-size: 12px;
-	}
-}
-
-#tim-williams {
-	padding-top:30px;
-}
-
-.bio-image {
-	vertical-align:bottom !important;
-}
-
-section#team .oc-item { box-sizing: border-box; }
-
-#williams-image{
-	vertical-align: bottom;
-}
-
-@media (min-width: 1200px) {
-		#williams-image{
-		max-width: 114% !important;
-    width: 114% !important;
-    padding-right: 15px;
-	}
-}
-
-@media (min-width: 991px) and (max-width: 1199px) {
-		#williams-image{
-		max-width: 130% !important;
-    width: 130% !important;
-    padding-right: 33px;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 990px) {
-		#williams-image{
-		max-width: 123% !important;
-    width: 123% !important;
-    padding-right: 11px;
-	}
-}
-
-@media (max-width: 480px) {
-		#williams-image{
-		max-width: 150% !important;
-    width: 150% !important;
-    padding-right: 50px;
-	}
-}
-
-.team-title h4{
-    font-size: 23px;
-}
-
-.oc-item-team{
-	padding-bottom: 85px !important;
-}
-
-
-.team-content{
-	font-size: 16px;
-}
-
-.owl-theme .owl-controls .owl-nav [class*=owl-] {
-   opacity: 1;
-   left: -18px;
-}
-
-.owl-theme .owl-controls .owl-nav .owl-next {
-   left: auto;
-   right: -18px;
-}
-
-.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-	background-color: #d75231 !important;
-	color: #FFF !important;
-	text-decoration: none;
-}
-
-.oc-item, .group-photo-slide {
-	padding: 1em;
-	border-radius: 10px;
-	background-color: #ffffff;
-}
-
-.group-carousel-caption {
-	text-align: center;
-	margin: 0;
-	padding: 5px 5px 0 5px;
-	font-size: 1.25em;
-}
+#doctors{padding-top:30px;background-color:#efefe9;}
+#ed-pyatt{padding-top:30px;}
+#ben-pyatt{background-color:#efefe9;}
+#ed-pyatt{background-color:#ffffff;}
+.bio-image{vertical-align:bottom;}
+#team{background-color:#efefe9;padding:30px 0;}
+.device-xxs .col-xs-6{width:100%;display:block;float:none;max-width:200px;margin:0 auto;}
+.device-xxs hr{display:none;}
+.device-xs #team img,
+.device-xxs #team img{max-width:200px;margin:0 auto;}
+.device-xxs #team img{margin-bottom:10px;}
+#team hr{border-top:1px solid #ddd;}
 
 /** SPECIALS OVERRIDES */
 section#specials {
