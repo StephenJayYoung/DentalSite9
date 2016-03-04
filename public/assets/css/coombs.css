@@ -643,6 +643,13 @@ address {
 
 /*FOOTER OVERRIDES*/
 
+.footer-icons{
+	height: 50px;
+	width: 50px;
+	padding: 2px;
+	text-rendering: optimizeLegibility;
+}
+
 .tSteeleText{
 	font-size: 15px !important;
 	color: #fff !important;
