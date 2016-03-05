@@ -343,7 +343,7 @@ section#services {
 		margin-bottom:-5px !important;
 	}
 
-	.smile-whitening-margin{
+	.smile-whitening-desc-margin{
 		margin-bottom:-5px !important;
 	}
 
@@ -387,39 +387,26 @@ section#services {
 }
 
 @media (min-width: 481px) and (max-width: 767px){
-	.family-care-margin{
-		margin-bottom:-5px !important;
-	}
 
 	.smile-whitening-margin{
-		margin-bottom:-5px !important;
+		margin-top: -105px !important;
 	}
 
-	.forms-margin{
-		margin-top: -35px !important;
+	.cleartray-margin{
+	margin-top: -105px !important;
+	}
+
+	.air-abrasion-margin{
+		margin-top: -105px !important;
 	}
 
 	.cosmetic-dentistry-margin{
-		margin-top: -35px !important;
+		margin-top: -105px !important;
 	}
 }
 
 @media (max-width: 480px) {
-	.family-care-margin{
-		margin-bottom:-5px !important;
-	}
 
-	.smile-whitening-margin{
-		margin-bottom:-5px !important;
-	}
-
-	.forms-margin{
-		margin-top: -35px !important;
-	}
-
-	.cosmetic-dentistry-margin{
-		margin-top: -35px !important;
-	}
 }
 
 .portfolio-desc h3 {
