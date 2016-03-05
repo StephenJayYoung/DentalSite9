@@ -369,24 +369,20 @@ section#services {
 
 	.cosmetic-dentistry-margin{
 		margin-top: -65px !important;
-	}*/
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-	.family-care-margin{
-		margin-bottom:-5px !important;
-	}
-
-	.smile-whitening-margin{
-		margin-bottom:-5px !important;
+	.cleartray-margin{
+		margin-top: -30px !important;
 	}
 
 	.forms-margin{
-		margin-top: -35px !important;
+		margin-top: -45px !important;
 	}
 
 	.cosmetic-dentistry-margin{
-		margin-top: -35px !important;
+		margin-top: -75px !important;
 	}
 }
 
