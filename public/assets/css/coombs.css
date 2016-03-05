@@ -336,20 +336,94 @@ section#services {
 	background-color: #f6f6e9 !important;
 }
 
-.family-care-margin{
-	margin-bottom:-5px !important;
+/*For services scaffolding*/
+@media (min-width: 1200px) {
+
+	.family-care-margin{
+		margin-bottom:-5px !important;
+	}
+
+	.smile-whitening-margin{
+		margin-bottom:-5px !important;
+	}
+
+	.forms-margin{
+		margin-top: -35px !important;
+	}
+
+	.cosmetic-dentistry-margin{
+		margin-top: -35px !important;
+	}
+
 }
 
-.smile-whitening-margin{
-	margin-bottom:-5px !important;
+@media (min-width: 992px) and (max-width: 1199px){
+
+	.cleartray-margin{
+		margin-top: -20px !important;
+	}
+
+	.forms-margin{
+		margin-top: -45px !important;
+	}
+
+	.cosmetic-dentistry-margin{
+		margin-top: -65px !important;
+	}*/
 }
 
-.forms-margin{
-	margin-top: -35px !important;
+@media (min-width: 768px) and (max-width: 991px){
+	.family-care-margin{
+		margin-bottom:-5px !important;
+	}
+
+	.smile-whitening-margin{
+		margin-bottom:-5px !important;
+	}
+
+	.forms-margin{
+		margin-top: -35px !important;
+	}
+
+	.cosmetic-dentistry-margin{
+		margin-top: -35px !important;
+	}
 }
 
-.cosmetic-dentistry-margin{
-	margin-top: -35px !important;
+@media (min-width: 481px) and (max-width: 767px){
+	.family-care-margin{
+		margin-bottom:-5px !important;
+	}
+
+	.smile-whitening-margin{
+		margin-bottom:-5px !important;
+	}
+
+	.forms-margin{
+		margin-top: -35px !important;
+	}
+
+	.cosmetic-dentistry-margin{
+		margin-top: -35px !important;
+	}
+}
+
+@media (max-width: 480px) {
+	.family-care-margin{
+		margin-bottom:-5px !important;
+	}
+
+	.smile-whitening-margin{
+		margin-bottom:-5px !important;
+	}
+
+	.forms-margin{
+		margin-top: -35px !important;
+	}
+
+	.cosmetic-dentistry-margin{
+		margin-top: -35px !important;
+	}
 }
 
 .portfolio-desc h3 {
