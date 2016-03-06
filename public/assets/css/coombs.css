@@ -456,7 +456,7 @@ section#members .heading-block span{
 }
 
 .icon-ok:before {
-    color: #d75231;
+    color: #1f1b18;
 }
 
 .pricing-box {
@@ -473,19 +473,19 @@ section#members .heading-block span{
 }
 
 #members-sign {
-	color: #d75231 !important;
+	color: #1f1b18 !important;
 }
 
 #members-month {
-	color: #d75231 !important;
+	color: #1f1b18 !important;
 }
 
 .members-pricing strong {
-	color: #d75231 !important;
+	color: #1f1b18 !important;
 }
 
 .price-tenure {
-	color: #ffffff !important;
+	color: #1f1b18 !important;
 
 }
 
@@ -498,11 +498,11 @@ section#members .heading-block span{
 }
 
 .dark .pricing-box.pricing-extended .pricing-meta {
-    color: #000;
+    color: #1f1b18 !important;
 }
 
 .pricing-box.pricing-extended .pricing-features li {
-  color: #000 !important;
+  color: #1f1b18 !important;
 }
 
 .pricing-box.pricing-extended .pricing-action-area {
@@ -722,14 +722,14 @@ address {
 	text-rendering: optimizeLegibility;
 }
 
-.tSteeleText{
+.ts-text{
 	font-size: 15px !important;
 	color: #a09b92 !important;
 }
 
 #copyrights {
   background-color: #4f4a41 !important;
-  color: #fff !important;
+  color: #a09b92 !important;
 }
 
 .social-icon i {
