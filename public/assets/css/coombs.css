@@ -10,8 +10,8 @@
 /** MENU OVERRIDES */
 
 body{
-	color: #685e58 !important;
-	background-color: #fff !important;
+	color: #1f1b18 !important;
+	background-color: #fff8eb !important;
 }
 
 a {
@@ -19,7 +19,7 @@ a {
 }
 
 h2 {
-    color: #37251b;
+    color: #50848f;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
@@ -39,24 +39,24 @@ h2 {
 }
 
 #header {
-    background-color: #fcfcf7 !important;
+    background-color: #fff8eb !important;
 }
 
 #header.sticky-header #header-wrap {
-    background-color: #fcfcf7 !important;
+    background-color: #fff8eb !important;
 }
 
 #header .container {
-    background-color: #fcfcf7;
+    background-color: #fff8eb;
 }
 
 #header #header-wrap .container .container .clearfix{
-	background-color: #fcfcf7 !important;;
+	background-color: #fff8eb !important;;
 }
 
 
 .responsive-sticky-header #header-wrap {
-    background-color: #fcfcf7 !important;
+    background-color: #fff8eb !important;
 }
 
 
@@ -188,7 +188,7 @@ background-color: #e38d77 !important;
 .device-xs #actions .schedule-online:not(.close),
 .device-xxs #actions .phone-numbers,
 .device-xxs #actions .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
-#actions .schedule-online a.button{background-color:#ff8200;color:#ffffff;opacity:1;border:2px solid rgba(255, 255, 255, .7);text-shadow:none !important;text-decoration:none !important;}
+#actions .schedule-online a.button{background-color:#e36314;color:#ffffff;opacity:1;border:2px solid rgba(255, 255, 255, .7);text-shadow:none !important;text-decoration:none !important;}
 .device-xs #actions .schedule-online a.button, .device-xxs #actions .schedule-online a.button {font-size:12px;padding:5px 10px !important;line-height:25px;}
 #actions .existing-patients{margin-top:10px;}
 #actions .existing-patients p{font-size:24px;font-weight:300;margin:0;}
@@ -201,9 +201,9 @@ background-color: #e38d77 !important;
 
 /** TEAM OVERRIDES */
 #doctors{padding-top:30px;background-color:#efefe9;}
-#ed-pyatt{padding-top:30px;}
-#ben-pyatt{background-color:#efefe9;}
-#ed-pyatt{background-color:#ffffff;}
+#paul-coombs{padding-top:30px;}
+#william-ross{background-color:#fff8eb;}
+#paul-coombs{background-color:#ede6d9;}
 .bio-image{vertical-align:bottom;}
 #team{background-color:#efefe9;padding:30px 0;}
 .device-xxs .col-xs-6{width:100%;display:block;float:none;max-width:200px;margin:0 auto;}
@@ -218,7 +218,7 @@ section#specials {
 	border-top: 1px solid rgba(0, 0, 0, .15);
 	margin-top: 0;
 	padding-top: 60px;
-	background-color: #ffffff;
+	background-color: #ede6d9;
 	color:;
 }
 
@@ -321,7 +321,7 @@ section#specials {
 }
 
 /** REVIEWS OVERRIDES */
-#reviews{background-color:#f1f3f9;}
+#reviews{background-color:#fff8eb;}
 #reviews table.rad{box-sizing:border-box;display:block;max-height:640px;overflow-y:scroll;border:2px solid rgba(0, 0, 0, .05);border-bottom:none;}
 #reviews td.rad{padding:3em 10px 20px 10px;position:relative;background-color:rgba(255, 255, 255, .8);border-bottom:2px solid rgba(0, 0, 0, .05);}
 #reviews .starline{display:block;position:absolute;top:1em;}
@@ -333,7 +333,7 @@ section#services {
 	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #f6f6e9 !important;
+	background-color: #ede6d9 !important;
 }
 
 /*For services scaffolding*/
@@ -432,7 +432,7 @@ section#members {
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #e8e8e8;
-	background-color: #685e58 !important; 
+	background-color: #50848f !important; 
 }
 
 .pricing-box.pricing-extended .pricing-action-area {
@@ -518,13 +518,13 @@ section#members .heading-block span{
 }
 
 #members a.button {
-	border-bottom: 3px solid rgba(0,0,0,0.15);
-	background-color: #d75231;
+/*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
+	background-color: #6ac2ce !important;
 	color: #ffffff;
 }
 
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover {
-	background-color: #e38d77 !important;;
+	background-color: #50848f !important;;
 }
 
 /** TOUR OVERRIDES */
@@ -573,7 +573,7 @@ section#location {
 }
 .hotline {
 	font-size: 25px;
-	color: #d75231 !important;
+	color: #e36314 !important;
 }
 
 
@@ -724,11 +724,11 @@ address {
 
 .tSteeleText{
 	font-size: 15px !important;
-	color: #fff !important;
+	color: #a09b92 !important;
 }
 
 #copyrights {
-  background-color: #302521 !important;
+  background-color: #4f4a41 !important;
   color: #fff !important;
 }
 
@@ -770,7 +770,7 @@ input, select, textarea {
 /*CUSTOM BUTTON COLOR*/
 
 .button{
-	background-color: #d75231 !important;
+	background-color: #e36314 !important;
 }
 
 .portfolio-overlay a.center-icon {
