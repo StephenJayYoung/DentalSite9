@@ -12,16 +12,22 @@
 body{
 	color: #1f1b18 !important;
 	background-color: #fff8eb !important;
+	font-family: 'Gentium Book Basic', serif !important;
 }
 
 a {
-    font-family: 'lato', sans-serif;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 h2 {
     color: #50848f;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans";
+    font-weight: 900 !important;
+}
+
+h3, h4, h5, h6 {
+    color: #1f1b18 ;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 #top-bar {
@@ -29,7 +35,7 @@ h2 {
     border: .5px solid black;
     color: #FFF !important;
     padding-left: 0px !important;
-    font-family: "Lato", Helvetica, sans-serif;;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 #logo {
@@ -175,7 +181,7 @@ background-color: #e38d77 !important;
 #actions{padding:20px 0;background-color:#4b52a3;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
 .device-xxs #actions{padding:10px 0;}
 #actions h3{color:#f2f2f2 !important;font-size:16px;margin-bottom:0;}
-#actions h3 a{display:block;color:#f1f3f9;font-size:2.5em;line-height:1;font-family:"Lato", sans-serif;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
+#actions h3 a{display:block;color:#f1f3f9;font-size:2.5em;line-height:1;font-family:'Gentium Book Basic', serif;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
 .device-xs #actions h3 a,
 .device-xxs #actions h3 a{font-size:2em;}
 #actions p,
@@ -230,10 +236,6 @@ section#specials {
 	color: #ffffff;
 }
 
-.pricing-headline{
-	font-family: Raleway, sans-serif;
-}
-
 .pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
     color: #d75231 !important;
 }
@@ -286,7 +288,7 @@ section#specials {
 .pricing-features li {
 	font-size: 1.5em;
 	font-weight: bold;
-	font-family: "Lato", sans-serif;
+	font-family: 'Gentium Book Basic', serif;
 }
 
 .dark .pricing-price, #new-childrens-cleaning-exam .pricing-price {
@@ -295,7 +297,7 @@ section#specials {
 
 .pricing-price {
     font-weight: bold;
-    font-family: "Lato", sans-serif;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 .dark .pricing-price, .pricing-box.best-price .pricing-price, .pricing-features li, .pricing-box p, .dark .pricing-box.best-price .price-unit, .dark .pricing-box .price-unit {
@@ -415,11 +417,6 @@ section#services {
 		padding: 2px;
 		text-align: center;
 }
-
-.services-heading{
-	font-family: Raleway-light, sans-serif;
-}
-
 
 .portfolio-desc h3 a:hover {
     color: #000 !important;
@@ -613,13 +610,13 @@ label.error { display: none !important; }
 
 .location-text{
 	font-size: 19px !important;
-	font-family: "Lato", sans-serif !important;
+	font-family: 'Gentium Book Basic', serif !important;
 }
 
 @media (max-width: 480px) {
 	.location-text{
 	font-size: 16px !important;
-	font-family: "Lato", sans-serif !important;
+	font-family: 'Gentium Book Basic', serif !important;
 	}
 }
 
