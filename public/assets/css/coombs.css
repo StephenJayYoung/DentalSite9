@@ -208,10 +208,10 @@ background-color: #e38d77 !important;
 /** TEAM OVERRIDES */
 #doctors{padding-top:30px;background-color:#efefe9;}
 #paul-coombs{padding-top:30px;}
-#william-ross{background-color:#fff8eb;}
+#william-ross{background-color:#fff8eb; padding-top:30px;}
 #paul-coombs{background-color:#ede6d9;}
 .bio-image{vertical-align:bottom;}
-#team{background-color:#efefe9;padding:30px 0;}
+#team{background-color:#ede6d9;padding-top: 60px;}
 .device-xxs .col-xs-6{width:100%;display:block;float:none;max-width:200px;margin:0 auto;}
 .device-xxs hr{display:none;}
 .device-xs #team img,
