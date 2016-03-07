@@ -256,7 +256,7 @@ section#specials {
 }
 
 .pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
-    color: #d75231 !important;
+    color: #1f1b18 !important;
 }
 
 #pricing-box-one{
@@ -268,7 +268,7 @@ section#specials {
 }
 
 #specials .heading-block span {
-	color: #333;
+	color: #1f1b18;
 	font-weight: 400;
 }
 
@@ -297,7 +297,7 @@ section#specials {
 }
 
 .dark .pricing-title h3, .dark #new-childrens-cleaning-exam .pricing-title h3 {
-	color: #000;
+	color: #1f1b18;
 }
 
 .pricing-price {
@@ -320,7 +320,7 @@ section#specials {
 }
 
 .dark .pricing-price, .pricing-box.best-price .pricing-price, .pricing-features li, .pricing-box p, .dark .pricing-box.best-price .price-unit, .dark .pricing-box .price-unit {
-	color: #000000 !important;
+	color: #1f1b18 !important;
 }
 
 @media (min-width: 768px) {
@@ -362,6 +362,16 @@ section#specials {
 #reviews .starline{display:block;position:absolute;top:1em;}
 #reviews .radbyline{display:block;text-align:right;}
 
+.subtitle-one {
+	color: #1f1b18; 
+	text-decoration: underline !important;
+}
+
+.subtitle-one:hover{
+	color: #1f1b18 !important; 
+	text-decoration: underline !important;
+}
+
 /** SERVICES OVERRIDES */
 section#services {
 	margin-top: 0;
@@ -369,6 +379,11 @@ section#services {
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	background-color: #ede6d9 !important;
+}
+
+.subtitle-two {
+	color: #1f1b18 !important;
+	text-decoration: none !important;
 }
 
 /*For services scaffolding*/
