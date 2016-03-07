@@ -477,8 +477,21 @@ section#services {
 }
 
 @media (min-width: 481px) and (max-width: 767px){
+		.family-care-margin{
+		margin-top:-245px !important;
+	}
 
+		.air-abrasion-margin{
+		margin-top:-60px !important;
+	}
 
+	.sleep-apnea-margin{
+		margin-top:-110px !important;
+	}
+
+	.cleartray-margin{
+		margin-top:-110px !important;
+	}
 }
 
 @media (max-width: 480px) {
