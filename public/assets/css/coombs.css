@@ -389,70 +389,54 @@ section#services {
 /*For services scaffolding*/
 @media (min-width: 1200px) {
 
-	.family-care-margin{
-		margin-bottom:-5px !important;
-	}
+/*	.cerec-margin{
+		margin-top:-200px !important;
+	}*/
 
-	.smile-whitening-desc-margin{
-		margin-bottom:-5px !important;
+/*	.cleartray-margin{
+		margin-top:-205px !important;
 	}
+*/
+/*	.family-care-margin{
+		margin-top:-40px !important;
+	}*/
 
-	.forms-margin{
-		margin-top: -35px !important;
+	.air-abrasion-margin{
+		margin-top:-325px !important;
 	}
 
 	.cosmetic-dentistry-margin{
-		margin-top: -35px !important;
+		margin-top:-125px !important;
 	}
+
+	.sleep-apnea-margin{
+		margin-top:-190px !important
+	}
+
+	.mercury-free-margin{
+			margin-top:-155px !important
+	}
+	.family-care-margin{
+		margin-top:-35px !important;
+	}
+/*	.forms-margin{
+		margin-top:-150px !important
+	}*/
 
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
 
-	.cleartray-margin{
-		margin-top: -20px !important;
-	}
 
-	.forms-margin{
-		margin-top: -45px !important;
-	}
-
-	.cosmetic-dentistry-margin{
-		margin-top: -65px !important;
-	}
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-	.cleartray-margin{
-		margin-top: -30px !important;
-	}
 
-	.forms-margin{
-		margin-top: -45px !important;
-	}
-
-	.cosmetic-dentistry-margin{
-		margin-top: -75px !important;
-	}
 }
 
 @media (min-width: 481px) and (max-width: 767px){
 
-	.smile-whitening-margin{
-		margin-top: -80px !important;
-	}
 
-	.cleartray-margin{
-	margin-top: -80px !important;
-	}
-
-	.air-abrasion-margin{
-		margin-top: -80px !important;
-	}
-
-	.cosmetic-dentistry-margin{
-		margin-top: -80px !important;
-	}
 }
 
 @media (max-width: 480px) {
