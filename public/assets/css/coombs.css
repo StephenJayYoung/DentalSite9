@@ -316,8 +316,22 @@ section#specials {
 }
 
 /*Padding for pricing section in mobile */
-@media (min-width: 768px) and (max-width: 1199px) {
+
+@media (min-width: 1200px) {
+
+	.pricing-box-responsive-two{
+	padding-bottom: 25px;
+	}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
 	.pricing-box-responsive{
+	padding-bottom: 50px;
+	}
+
+	.pricing-box-responsive-two{
 	padding-bottom: 25px;
 	}
 }
