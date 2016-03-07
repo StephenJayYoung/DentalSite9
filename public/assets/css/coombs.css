@@ -594,6 +594,47 @@ section#location {
 /*	padding-top: 50px !important;*/
 }
 
+#location th, #location td {
+    padding-top: 5px;
+    padding: 6px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .25);
+}
+
+#location td {
+    text-align: right;
+}
+
+th {
+    width: 1px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+th {
+    font-weight: bold;
+}
+user agent stylesheettd, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.table td,
+.table th{background-color:#fff !important;}
+.table-bordered th,
+.table-bordered td{border:1px solid #ddd !important;}
+}
+.table{border-collapse:collapse !important;}
+.table td,
+.table th{background-color:#fff !important;}
+.table-bordered th,
+.table-bordered td{border:1px solid #ddd !important;}
+}
+
+.location-hours br{
+	padding: 6px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, .25);
+}
+
 #contact-form-overlay-mobile{
 	background-color: #FFF;
 	padding: 10px;
