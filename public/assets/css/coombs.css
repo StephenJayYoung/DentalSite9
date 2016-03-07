@@ -31,7 +31,7 @@ h3, h4, h5, h6 {
 }
 
 #top-bar {
-    background-color: #685e58;
+    background-color: #50848f;
     border: .5px solid black;
     color: #FFF !important;
     padding-left: 0px !important;
@@ -178,7 +178,7 @@ background-color: #e38d77 !important;
 
 /** ACTIONS OVERRIDES */
 
-#actions{padding:20px 0;background-color:#4b52a3;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
+#actions{padding:20px 0;background-color:#50848f;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
 .device-xxs #actions{padding:10px 0;}
 #actions h3{color:#f2f2f2 !important;font-size:16px;margin-bottom:0;}
 #actions h3 a{display:block;color:#f1f3f9;font-size:2.5em;line-height:1;font-family:'Gentium Book Basic', serif;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
@@ -229,7 +229,7 @@ section#specials {
 }
 
 .pricing-title {
-    background-color: #d75231;
+    background-color: #e36314;
 }
 
 .pricing-title h3 {
@@ -245,7 +245,7 @@ section#specials {
 }
 
 #professional-smile-whitening .pricing-title {
-	background-color: #d75231 !important;
+	background-color: #e36314 !important;
 }
 
 #specials .heading-block span {
@@ -323,7 +323,7 @@ section#specials {
 }
 
 /** REVIEWS OVERRIDES */
-#reviews{background-color:#fff8eb;}
+#reviews{background-color:#fff8eb; padding-top: 60px;}
 #reviews table.rad{box-sizing:border-box;display:block;max-height:640px;overflow-y:scroll;border:2px solid rgba(0, 0, 0, .05);border-bottom:none;}
 #reviews td.rad{padding:3em 10px 20px 10px;position:relative;background-color:rgba(255, 255, 255, .8);border-bottom:2px solid rgba(0, 0, 0, .05);}
 #reviews .starline{display:block;position:absolute;top:1em;}
