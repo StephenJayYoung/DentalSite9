@@ -220,8 +220,8 @@ background-color: #e38d77 !important;
 #team hr{border-top:1px solid #ddd;}
 
 @media (min-width: 991px) and (max-width: 1199px){
-.bio-image{width: 135%; max-width: 135%;}
-.col-sm-push-3 {left: 28%;}
+.bio-image{width: 145%; max-width: 145%;}
+.col-sm-push-3 {left: 30%;}
 }
 
 @media (min-width: 768px) and (max-width: 990px){
