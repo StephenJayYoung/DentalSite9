@@ -804,39 +804,6 @@
                     <!-- Portfolio Items
                     ============================================= -->
 
-                    <!-- Portfolio Script
-                    ============================================= -->
-                    <script type="text/javascript">
-
-                        jQuery(window).load(function(){
-
-                            var $container = $('#portfolio');
-
-                            $container.isotope({ transitionDuration: '0.65s' });
-
-                            $('#portfolio-filter a').click(function(){
-                                $('#portfolio-filter li').removeClass('activeFilter');
-                                $(this).parent('li').addClass('activeFilter');
-                                var selector = $(this).attr('data-filter');
-                                $container.isotope({ filter: selector });
-                                return false;
-                            });
-
-                            $('#portfolio-shuffle').click(function(){
-                                $container.isotope('updateSortData').isotope({
-                                    sortBy: 'random'
-                                });
-                            });
-
-                            $(window).resize(function() {
-                                $container.isotope('layout');
-                            });
-
-                        });
-
-                    </script><!-- Portfolio Script End -->
-<!-- Services (newer) end -->
-
                 <!-- CONTACT SECTION -->
             <!-- Contact info that will show up in mobile version (above map)-->
             <section id="location">

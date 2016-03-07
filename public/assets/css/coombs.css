@@ -45,24 +45,24 @@ h3, h4, h5, h6 {
 }
 
 #header {
-    background-color: #fff8eb !important;
+    background-color: #fff !important;
 }
 
 #header.sticky-header #header-wrap {
-    background-color: #fff8eb !important;
+    background-color: #fff !important;
 }
 
 #header .container {
-    background-color: #fff8eb;
+    background-color: #fff;
 }
 
 #header #header-wrap .container .container .clearfix{
-	background-color: #fff8eb !important;;
+	background-color: #fff !important;;
 }
 
 
 .responsive-sticky-header #header-wrap {
-    background-color: #fff8eb !important;
+    background-color: #fff !important;
 }
 
 
