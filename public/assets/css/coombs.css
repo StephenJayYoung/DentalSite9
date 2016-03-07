@@ -389,17 +389,10 @@ section#services {
 /*For services scaffolding*/
 @media (min-width: 1200px) {
 
-/*	.cerec-margin{
-		margin-top:-200px !important;
-	}*/
 
 	.cleartray-margin{
 		margin-top:-125px !important;
 	}
-
-/*	.family-care-margin{
-		margin-top:-40px !important;
-	}*/
 
 	.air-abrasion-margin{
 		margin-top:-325px !important;
@@ -419,9 +412,10 @@ section#services {
 	.family-care-margin{
 		margin-top:-35px !important;
 	}
-/*	.forms-margin{
-		margin-top:-150px !important
+/*	.forms-padding{
+		padding-bottom: 8px !important
 	}*/
+
 
 }
 
