@@ -16,7 +16,7 @@ body{
 }
 
 a {
-    font-family: 'Gentium Book Basic', serif;
+    font-family: "Open Sans";
 }
 
 h2 {
@@ -181,7 +181,7 @@ background-color: #e38d77 !important;
 #actions{padding:20px 0;background-color:#50848f;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
 .device-xxs #actions{padding:10px 0;}
 #actions h3{color:#f2f2f2 !important;font-size:16px;margin-bottom:0;}
-#actions h3 a{display:block;color:#f1f3f9;font-size:2.5em;line-height:1;font-family:'Gentium Book Basic', serif;text-shadow:1px 1px 1px rgba(0,0,0,.4);}
+#actions h3 a{display:block;color:#f1f3f9;font-size:2.5em;line-height:1;font-family: "Open Sans";text-shadow:1px 1px 1px rgba(0,0,0,.4);}
 .device-xs #actions h3 a,
 .device-xxs #actions h3 a{font-size:2em;}
 #actions p,
@@ -648,6 +648,15 @@ section#location {
 /*	padding-top: 50px !important;*/
 }
 
+.directions{
+	color: #e36314 !important;
+}
+
+.directions: hover{
+	color: #e36314 !important;
+	text-decoration: underline !important;
+}
+
 #location th, #location td {
     padding-top: 5px;
     padding: 6px 10px;
@@ -696,6 +705,12 @@ user agent stylesheettd, th {
 	border-radius: 4px;
 	box-shadow: 0 1px 10px rgba(0,0,0,0.15);
 }
+
+.newpatient-hotline{
+	font-size: 30px;
+	color: #e36314 !important;
+}
+
 .hotline {
 	font-size: 25px;
 	color: #e36314 !important;
