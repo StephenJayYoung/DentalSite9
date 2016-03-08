@@ -212,12 +212,12 @@ background-color: #e38d77 !important;
 #paul-coombs{background-color:#ede6d9;}
 .bio-image{vertical-align:bottom;}
 #team{background-color:#ede6d9;padding-top: 60px;}
-.device-xxs .col-xs-6{width:100%;display:block;float:none;max-width:200px;margin:0 auto;}
+.device-xxs .col-xs-6{width:170%;display:block;float:none;max-width:200px;margin:0 auto;}
 .device-xxs hr{display:none;}
 .device-xs #team img,
-.device-xxs #team img{max-width:280px;margin:0 auto;}
+/*.device-xxs #team img{max-width:100%; width: 100%; margin:0 auto; }*/
 /*.device-xxs #team img{margin-bottom:10px;}*/
-#team hr{border-top:1px solid #ddd;}
+/*#team hr{border-top:1px solid #ddd;}*/
 
 .bio-image{width: 103%; max-width: 103%;}
 
@@ -230,6 +230,14 @@ background-color: #e38d77 !important;
 .bio-image{width: 170%; max-width: 170%;}
 .col-sm-push-3 {left: 35%;}
 .team-text{ font-size: 13px;}
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+.bio-image{width: 170%; max-width: 170%;}
+}
+
+@media (min-width: 100px) and (max-width: 479px){
+.bio-image{width: 140%; max-width: 140%; padding-right: 15px;}
 }
 
 
@@ -514,6 +522,7 @@ section#services {
 
 .portfolio-desc h3 a:hover {
     color: #000 !important;
+
 }
 
 /** MEMBERS OVERRIDES */
