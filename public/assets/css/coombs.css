@@ -249,6 +249,10 @@ section#specials {
 	color:;
 }
 
+.pricing-title {
+    border-radius: 10px 10px 0 0;
+}
+
 .pricing-box {
     background-color: #fff !important;
 }
@@ -650,6 +654,10 @@ section#location {
 	padding-bottom: 0px !important;
 	border-top: .5px solid #1f1b18;
 /*	padding-top: 50px !important;*/
+}
+
+#contact-form-overlay, #contact-form-overlay-mini {
+    border-radius: 8px;
 }
 
 .directions{
