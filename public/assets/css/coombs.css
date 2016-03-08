@@ -249,6 +249,10 @@ section#specials {
 	color:;
 }
 
+.pricing-box {
+    background-color: #fff !important;
+}
+
 .pricing-title {
     background-color: #e36314;
 }
