@@ -559,6 +559,8 @@ section#members .heading-block span{
 	color: #ffffff !important;
 }
 
+
+
 .members-pricing .price-unit{
 	color: #ffffff !important;
 }
@@ -596,12 +598,34 @@ section#members .heading-block span{
   color: #1f1b18 !important;
 }
 
+
+
 .pricing-box.pricing-extended .pricing-action-area {
 	background-color: #1ABC9C;
 	color: #ffffff;
 	border-top-right-radius: 1em;
 	border-bottom-right-radius: 1em !important;
-	border-bottom-left-radius: 1em !important;
+	border-bottom-left-radius: 0em !important;
+}
+
+@media (min-width: 991px) {
+	.pricing-box.pricing-extended .pricing-action-area {
+    background-color: #1ABC9C;
+    color: #ffffff;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em !important;
+    border-bottom-left-radius: 0em !important;
+	}
+}
+
+@media (max-width: 990px){
+	.pricing-box.pricing-extended .pricing-action-area {
+    background-color: #1ABC9C;
+    color: #ffffff;
+    border-top-right-radius: 0em;
+    border-bottom-right-radius: 1em !important;
+    border-bottom-left-radius: 1em !important;
+	}
 }
 
 .pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
