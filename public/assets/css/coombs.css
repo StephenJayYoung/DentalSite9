@@ -273,10 +273,7 @@ section#specials {
 	background-color: #e36314 !important;
 }
 
-#specials .heading-block span {
-	color: #1f1b18;
-	font-weight: 400;
-}
+
 
 .dark .pricing-box, .dark .pricing-box.best-price {
 	background-color: #ffffff;
@@ -659,7 +656,7 @@ section#location {
 	color: #e36314 !important;
 }
 
-.directions: hover{
+.directions:hover{
 	color: #e36314 !important;
 	text-decoration: underline !important;
 }
