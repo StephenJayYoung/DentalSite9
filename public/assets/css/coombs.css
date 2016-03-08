@@ -26,7 +26,7 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-    color: #1f1b18 ;
+    color: #1f1b18;
     font-family: 'Gentium Book Basic', serif;
 }
 
@@ -215,7 +215,7 @@ background-color: #e38d77 !important;
 .device-xxs .col-xs-6{width:100%;display:block;float:none;max-width:200px;margin:0 auto;}
 .device-xxs hr{display:none;}
 .device-xs #team img,
-.device-xxs #team img{max-width:200px;margin:0 auto;}
+.device-xxs #team img{max-width:280px;margin:0 auto;}
 /*.device-xxs #team img{margin-bottom:10px;}*/
 #team hr{border-top:1px solid #ddd;}
 
@@ -231,6 +231,8 @@ background-color: #e38d77 !important;
 .col-sm-push-3 {left: 35%;}
 .team-text{ font-size: 13px;}
 }
+
+
 
 /*@media (max-width: 480px){
 .bio-image{width: 125%; max-width: 125%;}
@@ -316,7 +318,7 @@ section#specials {
 
 .pricing-price {
     font-weight: bold;
-    font-family: 'Gentium Book Basic', serif;
+    font-family: "Open Sans";
 }
 
 .dark .pricing-price, .pricing-box.best-price .pricing-price, .pricing-features li, .pricing-box p, .dark .pricing-box.best-price .price-unit, .dark .pricing-box .price-unit {
@@ -499,7 +501,7 @@ section#services {
 }
 
 .portfolio-desc h3 {
-    font-size: 17px;
+    font-size: 18px;
     margin: 8px 0 0 0;
 		padding: 2px;
 		text-align: center;
@@ -532,7 +534,7 @@ section#members .heading-block span{
 }
 
 .dark .pricing-box.pricing-extended .pricing-action-area {
-    background-color: #eee;
+    background-color: #ede6d9;
 }
 
 .pricing-box.pricing-extended {
@@ -540,7 +542,7 @@ section#members .heading-block span{
 }
 
 .icon-ok:before {
-    color: #1f1b18;
+    color: #e36314;
 }
 
 .pricing-box {
@@ -603,7 +605,7 @@ section#members .heading-block span{
 
 #members a.button {
 /*	border-bottom: 3px solid rgba(0,0,0,0.15);*/
-	background-color: #6ac2ce !important;
+	background-color: #e36314 !important;
 	color: #ffffff;
 }
 
@@ -645,6 +647,7 @@ section#location {
 	padding-bottom: 30px;
 	background-color: #fff;
 	padding-bottom: 0px !important;
+	border-top: .5px solid #1f1b18;
 /*	padding-top: 50px !important;*/
 }
 
@@ -661,6 +664,7 @@ section#location {
     padding-top: 5px;
     padding: 6px 10px;
     border-bottom: 1px solid rgba(0, 0, 0, .25);
+    font-size: 16px;
 }
 
 #location td {
@@ -716,6 +720,14 @@ user agent stylesheettd, th {
 	color: #e36314 !important;
 }
 
+.hours-oncall{
+	font-size: 14px;
+}
+
+.hours-oncall a{
+	color: #1f1b18;
+	font-family: "Open Sans";
+}
 
 @media (max-width: 480px) {
 	.open-text{
