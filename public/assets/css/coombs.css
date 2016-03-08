@@ -16,7 +16,7 @@ body{
 }
 
 a {
-    font-family: "Open Sans";
+    font-family: 'Gentium Book Basic', sans-serif !important;
 }
 
 h2 {
@@ -64,6 +64,11 @@ h3, h4, h5, h6 {
 .responsive-sticky-header #header-wrap {
     background-color: #fff !important;
 }
+
+#primary-menu ul li a {
+  font-family: 'Raleway', sans-serif !important;
+}
+
 
 
 @media (max-width: 991px) {
@@ -493,24 +498,45 @@ section#services {
 
 @media (min-width: 481px) and (max-width: 767px){
 		.family-care-margin{
-		margin-top:-245px !important;
+		margin-top:0px !important;
 	}
 
 		.air-abrasion-margin{
-		margin-top:-60px !important;
+		margin-top:0px !important;
+	}
+
+	.cerec-margin{
+		margin-top: -20px !important;
 	}
 
 	.sleep-apnea-margin{
-		margin-top:-110px !important;
+		margin-top:0px !important;
 	}
 
 	.cleartray-margin{
+		margin-top:0px !important;
+	}
+
+	.cosmetic-dentistry-margin{
 		margin-top:-110px !important;
 	}
+
+	.mercury-free-margin{
+		margin-top:-110px !important;
+	}
+
+	.forms-margin{
+		margin-top:-132px !important;
+	}
+
 }
 
 @media (max-width: 480px) {
 
+}
+
+.portfolio-desc{
+	    font-family: 'Gentium Book Basic', sans-serif !important;
 }
 
 .portfolio-desc h3 {
