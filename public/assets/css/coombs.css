@@ -72,19 +72,19 @@ h3, h4, h5, h6 {
 
 
 @media (max-width: 991px) {
-        .responsive-sticky-header #logo {
-                height: 100px;
-        }
+  .responsive-sticky-header #logo {
+          height: 100px;
+  }
 
-        .responsive-sticky-header #logo img {
-                height: 75px;
-        }
+  .responsive-sticky-header #logo img {
+          height: 75px;
+  }
 }
 
 @media (max-width: 991px) {
-        .responsive-sticky-header #primary-menu-trigger {
-                top: 25px;
-        }
+  .responsive-sticky-header #primary-menu-trigger {
+          top: 25px;
+  }
 }
 
 @media(min-width: 991px){
@@ -123,9 +123,9 @@ background-color: #e38d77 !important;
 }
 
 #header.full-header #logo {
-    padding-right: 30px;
-    margin-right: 30px;
-    border-right:none; 
+  padding-right: 30px;
+  margin-right: 30px;
+  border-right:none; 
 }
 
 #primary-menu ul li a {
@@ -245,14 +245,6 @@ background-color: #e38d77 !important;
 .bio-image{width: 140%; max-width: 140%; padding-right: 15px;}
 }
 
-
-
-/*@media (max-width: 480px){
-.bio-image{width: 125%; max-width: 125%;}
-.col-sm-push-3 {left: 30%;}
-.team-text{ font-size: 13px;}
-}*/
-
 /** SPECIALS OVERRIDES */
 section#specials {
 	border-top: 1px solid rgba(0, 0, 0, .15);
@@ -289,8 +281,6 @@ section#specials {
 #professional-smile-whitening .pricing-title {
 	background-color: #e36314 !important;
 }
-
-
 
 .dark .pricing-box, .dark .pricing-box.best-price {
 	background-color: #ffffff;
@@ -357,11 +347,9 @@ section#specials {
 /*Padding for pricing section in mobile */
 
 @media (min-width: 1200px) {
-
 	.pricing-box-responsive-two{
 	padding-bottom: 25px;
 	}
-
 
 }
 
@@ -408,8 +396,6 @@ section#services {
 
 /*For services scaffolding*/
 @media (min-width: 1200px) {
-
-
 	.cleartray-margin{
 		margin-top:-125px !important;
 	}
@@ -432,12 +418,9 @@ section#services {
 	.family-care-margin{
 		margin-top:-35px !important;
 	}
-
-
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
-
 	.air-abrasion-margin{
 		margin-top:-275px !important;
 	}
@@ -465,39 +448,35 @@ section#services {
 	.cleartray-padding {
 		padding-top: 7px !important;
 	}
-
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-
-		.air-abrasion-margin{
-		margin-top:-220px !important;
+	.air-abrasion-margin{
+	margin-top:-220px !important;
 	}
 
-		.family-care-margin{
-		margin-top:-45px !important;
+	.family-care-margin{
+	margin-top:-45px !important;
 	}
 
-			.cosmetic-dentistry-margin{
-		margin-top:-75px !important;
+	.cosmetic-dentistry-margin{
+	margin-top:-75px !important;
 	}
 
-			.mercury-free-margin{
-			margin-top:-75px !important
+	.mercury-free-margin{
+	margin-top:-75px !important
 	}
 
-			.cleartray-margin{
-		margin-top:-75px !important;
+	.cleartray-margin{
+	margin-top:-75px !important;
 	}
 
-		.mercury-padding{
-		padding-top: 27px !important;
+	.mercury-padding{
+	padding-top: 27px !important;
 	}
-
 }
 
 @media (min-width: 481px) and (max-width: 767px){
-
 	#portfolio:not(.portfolio-1) .portfolio-desc {
 	    padding: 0px 7px 0px;
 	}
@@ -517,10 +496,6 @@ section#services {
 		.cleartray-margin{
 		margin-top:-95px !important;
 	}
-}
-
-@media (max-width: 480px) {
-
 }
 
 .portfolio-desc{
@@ -582,8 +557,6 @@ section#members .heading-block span{
 	color: #ffffff !important;
 }
 
-
-
 .members-pricing .price-unit{
 	color: #ffffff !important;
 }
@@ -620,8 +593,6 @@ section#members .heading-block span{
 .pricing-box.pricing-extended .pricing-features li {
   color: #1f1b18 !important;
 }
-
-
 
 .pricing-box.pricing-extended .pricing-action-area {
 	background-color: #1ABC9C;
@@ -700,7 +671,6 @@ section#location {
 	background-color: #fff;
 	padding-bottom: 0px !important;
 	border-top: .5px solid #1f1b18;
-/*	padding-top: 50px !important;*/
 }
 
 #contact-form-overlay, #contact-form-overlay-mini {
@@ -831,7 +801,6 @@ label.error { display: none !important; }
 	}
 }
 
-
 @media (min-width: 768px) and (max-width: 991px){
 	#bottom-logo-responsive{
 		padding-top: 40px;
@@ -869,7 +838,6 @@ address {
 #location p.new-patient-hotline small, #location p.existing-patients small {
 	margin-bottom: -5px;
 }
-
 
 /*MODAL OVERRIDES*/
 .modal-body{
@@ -936,6 +904,10 @@ address {
 	width: 50px;
 	padding: 2px;
 	text-rendering: optimizeLegibility;
+}
+
+.social-media-icons{
+	padding-top: 15px;
 }
 
 .ts-text{
