@@ -497,38 +497,26 @@ section#services {
 }
 
 @media (min-width: 481px) and (max-width: 767px){
-		.family-care-margin{
-		margin-top:0px !important;
+
+	#portfolio:not(.portfolio-1) .portfolio-desc {
+	    padding: 0px 7px 0px;
+	}
+
+	.family-care-margin{
+		margin-top:-195px !important;
 	}
 
 		.air-abrasion-margin{
-		margin-top:0px !important;
+		margin-top:-40px !important;
 	}
 
-	.cerec-margin{
-		margin-top: -20px !important;
+		.sleep-apnea-margin{
+		margin-top:-95px !important;
 	}
 
-	.sleep-apnea-margin{
-		margin-top:0px !important;
+		.cleartray-margin{
+		margin-top:-95px !important;
 	}
-
-	.cleartray-margin{
-		margin-top:0px !important;
-	}
-
-	.cosmetic-dentistry-margin{
-		margin-top:-110px !important;
-	}
-
-	.mercury-free-margin{
-		margin-top:-110px !important;
-	}
-
-	.forms-margin{
-		margin-top:-132px !important;
-	}
-
 }
 
 @media (max-width: 480px) {
